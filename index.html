@@ -12,14 +12,87 @@
 <body>
     <!--Header text-->
     <Header>
-        <h1>
-            Rock Paper Scissors
-        </h1>
+        <h1>Rock Paper Scissors</h1>
         <!--Image-->
         <section>
-            <div id="image"></div>
+            <div id="hero-image"></div>
         </section>
     </Header>
+    <section>
+        <!--Game Instructions-->
+        <ul>
+            <li>
+                Play the game of Rock,Paper Scissors against the computer.
+            </li>
+            <li>
+                Rock blunts scissors, Paper raps rock, Scissors cut paper
+            </li>
+            <li>
+                Scroll down to begin the game!
+
+            </li>
+        </ul>
+    </section>
+    <section>
+        <div id="score-container">
+            <!-- Computer and user Choice and score-->
+            <div class=computer>
+                <h3>Computer: <span id="computer-score">0</span></h3>
+
+            </div>
+            <div class=user>
+                <h3>User: <span id="user-score">0</span></h3>
+            </div>
+        </div>
+    </section>
+    <section>
+        <!--Message box that greets the user-->
+        <div id="image-container">
+            <div class="message-box" id="box-area">
+                <h2 id="box-title">Rock Paper Scissors</h2>
+                <ul>
+                    <li id="open-message">Make your choise first! Then it's the computer's turn.</li>
+                    <li>First to five points, wins!</li>
+                    <li>Good Luck!</li>
+                </ul>
+            </div>
+            <!--Message box if the user wins the game-->
+            <div class="message-box" id="win-box">
+                <p>Yaaaay, You've won the game!</p>
+                <p id=win-text></p>
+            </div>
+            <!--Message box if the user loses the game-->
+            <div class="message-box" id="lose-box">
+                <p>Sorry, you lost!</p>
+                <p id=lose-text></p>
+            </div>
+            <!--The game buttons that are used to play the game-->
+            <div id="rock">
+                <button aria-label="rock" class="rps" data-choice="rock"><img src="assets/images/rock.jpeg"
+                        alt="rock"></button>
+            </div>
+            <div id="paper">
+                <button aria-label="paper" class="rps" data-choice="paper"><img src="assets/images/paper.jpeg"
+                        alt="paper"></button>
+            </div>
+            <div id="scissors">
+                <button aria-label="scissors" class="rps" data-choice="scissors"><img src="assets/images/scissors.jpeg"
+                        alt="scissors"></button>
+            </div>
+        </div>
+        <!--The result that appears below the game-->
+        <div id="result"></div>
+        <!--The message that tells the user what the computer picked-->
+        <div id="message"></div>
+        <div id="btn-container">
+            <!--This is the button to play the game-->
+            <div><button aria-label="Play game" id="play-game">Play Game</button></div>
+        </div>
+        <!--This is the button to restart the game-->
+        <div id="restart-container">
+            <div><button aria-label="Restart game" id="play-again">Restart Game</button></div>
+        </div>
+    </section>
 
     <script src="assets/css/js/script.js"></script>
     

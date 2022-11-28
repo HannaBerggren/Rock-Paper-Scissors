@@ -23,7 +23,7 @@ h1 {
 
 /* frontpage-image */
 
-#image {
+#hero-image {
     height: 35rem;
     width: 100%;
     background: url(../images/rockpaperscissors.jpeg) no-repeat center center;
