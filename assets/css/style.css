@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: El Messiri, Arial;
+    font-weight: 300;
+}
+
+/* Heading */
+
+h1 {
+    font-family: El Messiri, Arial;
+    font-size: 300%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #383D41;
+}
+
+/* frontpage-image */
+
+#image {
+    height: 35rem;
+    width: 100%;
+    background: url(../images/rockpaperscissors.jpeg) no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+}
