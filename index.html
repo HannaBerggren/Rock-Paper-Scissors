@@ -34,21 +34,18 @@
     </section>
     <!-- Game score board for both players. -->
     <section>
-        <div class="scores">
-            <p>Scoreboard</p>
-            <div id="userback" class="player">
-              User: <span id="user">0</span>
+        <div class="scorebox">
+            <p>Scoreboard!</p>
+            <div id="playerscore" class="player">Player: <span id="user">0</span>
             </div>
-            <div id="compback" class="player">
-              Comp: <span id="computer">0</span>
+            <div id="computerscore" class="player">Computer: <span id="Comp">0</span>
             </div>
-          </div>
+        </div>
     </section>
     <section>
-        
             <!--Message box if the user wins the game-->
             <div class="message-box" id="win-box">
-                <p>Yaaaay, You've won the game!</p>
+                <p>Yaay, You've won the game!</p>
                 <p id=win-text></p>
             </div>
             <!--Message box if the user loses the game-->
@@ -57,19 +54,21 @@
                 <p id=lose-text></p>
             </div>
             <!--The game buttons that are used to play the game-->
-            <div id="rock">
-                <button aria-label="rock" class="rps" data-choice="rock"><img src="assets/images/rock.jpeg"
+            <section class="button-box">
+                <div id="rock">
+                <button aria-label="rock" class="btn" data-choice="rock"><img src="assets/images/rock.png"
                         alt="rock"></button>
             </div>
             <div id="paper">
-                <button aria-label="paper" class="rps" data-choice="paper"><img src="assets/images/paper.jpeg"
+                <button aria-label="paper" class="btn" data-choice="paper"><img src="assets/images/paper.png"
                         alt="paper"></button>
             </div>
             <div id="scissors">
-                <button aria-label="scissors" class="rps" data-choice="scissors"><img src="assets/images/scissors.jpeg"
+                <button aria-label="scissors" class="btn" data-choice="scissors"><img src="assets/images/scissors.png"
                         alt="scissors"></button>
             </div>
-        </div>
+            </section>
+        </section>
         <!--The result that appears below the game-->
         <div id="result"></div>
         <!--The message that tells the user what the computer picked-->
