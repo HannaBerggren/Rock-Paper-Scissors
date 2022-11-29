@@ -18,44 +18,34 @@
             <div id="hero-image"></div>
         </section>
     </Header>
-    <section>
+    <section id="gameinstructions">
         <!--Game Instructions-->
         <ul>
             <li>
-                Play the game of Rock,Paper Scissors against the computer.
+                Play the game of Rock, Paper Scissors against the computer
             </li>
             <li>
                 Rock blunts scissors, Paper raps rock, Scissors cut paper
             </li>
             <li>
-                Scroll down to begin the game!
-
+                First to five points wins!
             </li>
         </ul>
     </section>
+    <!-- Game score board for both players. -->
     <section>
-        <div id="score-container">
-            <!-- Computer and user Choice and score-->
-            <div class=computer>
-                <h3>Computer: <span id="computer-score">0</span></h3>
-
+        <div class="scores">
+            <p>Scoreboard</p>
+            <div id="userback" class="player">
+              User: <span id="user">0</span>
             </div>
-            <div class=user>
-                <h3>User: <span id="user-score">0</span></h3>
+            <div id="compback" class="player">
+              Comp: <span id="computer">0</span>
             </div>
-        </div>
+          </div>
     </section>
     <section>
-        <!--Message box that greets the user-->
-        <div id="image-container">
-            <div class="message-box" id="box-area">
-                <h2 id="box-title">Rock Paper Scissors</h2>
-                <ul>
-                    <li id="open-message">Make your choise first! Then it's the computer's turn.</li>
-                    <li>First to five points, wins!</li>
-                    <li>Good Luck!</li>
-                </ul>
-            </div>
+        
             <!--Message box if the user wins the game-->
             <div class="message-box" id="win-box">
                 <p>Yaaaay, You've won the game!</p>

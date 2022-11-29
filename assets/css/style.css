@@ -19,6 +19,7 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #383D41;
+    line-height: 75px;
 }
 
 /* frontpage-image */
@@ -30,3 +31,29 @@ h1 {
     background-size: cover;
     overflow: hidden;
 }
+
+/* game-instructions */
+
+#gameinstructions {
+    text-align: center;
+    font-size: 200%;
+    line-height: 75px;
+    background-color: #9D9485;
+    color: #F6F7FC;
+}
+
+/* scoreboard and player score styling */
+.scores {
+    margin: 20px auto;
+    border: 3px solid #7C6A54;
+    border-radius: 8px;
+    text-align: center;
+    padding: 15px;
+    width: 220px;
+    color: white;
+    font-size: 40px;
+    position: relative;
+    background-color: rgb(0, 0, 0, 0.5);
+  }
+
+ 
