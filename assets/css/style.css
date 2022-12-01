@@ -58,11 +58,9 @@ h1 {
     font-size: 2rem;
 }
 
-  .button-box {
-    margin: 2rem 1rem;
-    border: 1rem solid #383D41;
-    border-radius: 1rem;
+.button-box {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
 }
